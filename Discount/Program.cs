@@ -17,14 +17,14 @@ namespace Discount
             }
             else if (currentSum < 10)
             {
-                Console.WriteLine("Buy from 10 euro and more and get s discount!");
+                Console.WriteLine("Buy from 10 euro and more and get a discount!");
             }
           
-            else if (currentSum >= 20 & currentSum <= 50)
+            else if (currentSum >= 20 && currentSum <= 50)
             {
                 Console.WriteLine("You have 5 euro discount on your next purchase!");
             }
-            else if (currentSum >= 50 & currentSum <= 100)
+            else if (currentSum >= 50 && currentSum <= 100)
             {
                 Console.WriteLine("You have 10 euro discount on your next purchase");
             }
